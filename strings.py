@@ -64,9 +64,9 @@ print("free" in txt)
 
 #Check if "free" is present in the following text:
 
-txt = "The best things in life are free!"#dosent work
-if free in txt:#dosent work
-    print("free!" in txt)#dosent work
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
 
 #To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
 
