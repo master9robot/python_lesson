@@ -30,7 +30,7 @@ print(thislist[-2])
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 
-hislist = ["one", "two", "three", "four", "five", "six", "seven"]
+thislist = ["one", "two", "three", "four", "five", "six", "seven"]
 print(thislist[3:6])
 
 #By leaving out the start value, the range will start at the first item:

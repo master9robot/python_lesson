@@ -20,7 +20,7 @@ print(thislist)
 #Remove the second item:
 
 thislist = ["apple", "banana", "cherry"]
-thislist.pop(1)
+thislist.pop(2)
 print(thislist)
 
 thislist = ["1", 1, 2]

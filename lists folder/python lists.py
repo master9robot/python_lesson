@@ -18,7 +18,7 @@ print(mygoodlist)
 
 mygoodlist = ["cherry",]
 
-mygoodlist[0]
+len(thislist)
 
 #List items are ordered, changeable, and allow duplicate values.
 
@@ -41,6 +41,8 @@ print(thislist)
 
 mygoodlist = ["pixar", "disney", "other", "disney", "other"]
 print(mygoodlist)
+
+thislist[4]
 
 #To determine how many items a list has, use the len() function:
 
@@ -70,6 +72,7 @@ print(list3)
 list4 = ["abc", 34, True, 40, "male"]
 print(list4)
 list5 = ["xyz", 43, False, 4, "female"]
+["",""]
 print(list5)
 
 #From Python's perspective, lists are defined as objects with the data type 'list':
@@ -88,6 +91,7 @@ print(type(mylist))
 list6 = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(list6)
 list7 = list("apple", "banana", "cherry") # no double round brackets
+list("apple") # no double round brackets
 print(list7)
 
 #LIST meaning = List is a collection which is ordered and changeable. Allows duplicate members.

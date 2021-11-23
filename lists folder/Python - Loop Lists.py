@@ -9,8 +9,8 @@ thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
 
-  thislist = [1, 2, 3]
-  for x in thislist:
+thislist = [1, 2, 3]
+for x in thislist:
     print(x)
 
 #Learn more about for loops in our Python For Loops Chapter.
@@ -23,7 +23,7 @@ for x in thislist:
 
 #Print all items by referring to their index number:
 
-thislist = ["apple", "banana", "cherry"]
+thislist = ["apple", "banana", "cherry",'jbj']
 for i in range(len(thislist)):
   print(thislist[i])
 

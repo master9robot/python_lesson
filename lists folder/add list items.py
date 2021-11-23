@@ -36,10 +36,14 @@ print(thislist)
 #Add the elements of tropical to thislist:
 
 thislist = ["apple", "banana", "cherry"]
-tropical = ["mango", "pineapple", "papaya"]
-thislist.extend(tropical)
-print(thislist)
+tropical = ["mango", "pineapple", ["berry", "eli", "papaya"]]
 
+thislist.insert(1, tropical)
+thislist.append(tropical)
+thislist.extend(tropical)
+thislist[1][2][1]
+print(thislist)
+ # TODO: write comment about this
 thislist = [1, 2, 3]
 tropical = [4, 5, 6]
 thislist.extend(tropical)
